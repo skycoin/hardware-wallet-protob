@@ -39,7 +39,7 @@ func (m *EthereumAddress) Reset()         { *m = EthereumAddress{} }
 func (m *EthereumAddress) String() string { return proto.CompactTextString(m) }
 func (*EthereumAddress) ProtoMessage()    {}
 func (*EthereumAddress) Descriptor() ([]byte, []int) {
-	return fileDescriptor_ethereum_messages_8339388745afba4a, []int{0}
+	return fileDescriptor_ethereum_messages_8fe0d75077b972c5, []int{0}
 }
 func (m *EthereumAddress) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -103,7 +103,7 @@ func (m *ResponseEthereumAddress) Reset()         { *m = ResponseEthereumAddress
 func (m *ResponseEthereumAddress) String() string { return proto.CompactTextString(m) }
 func (*ResponseEthereumAddress) ProtoMessage()    {}
 func (*ResponseEthereumAddress) Descriptor() ([]byte, []int) {
-	return fileDescriptor_ethereum_messages_8339388745afba4a, []int{1}
+	return fileDescriptor_ethereum_messages_8fe0d75077b972c5, []int{1}
 }
 func (m *ResponseEthereumAddress) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -154,7 +154,7 @@ func (m *EthereumTxAck) Reset()         { *m = EthereumTxAck{} }
 func (m *EthereumTxAck) String() string { return proto.CompactTextString(m) }
 func (*EthereumTxAck) ProtoMessage()    {}
 func (*EthereumTxAck) Descriptor() ([]byte, []int) {
-	return fileDescriptor_ethereum_messages_8339388745afba4a, []int{2}
+	return fileDescriptor_ethereum_messages_8fe0d75077b972c5, []int{2}
 }
 func (m *EthereumTxAck) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -762,10 +762,10 @@ var (
 )
 
 func init() {
-	proto.RegisterFile("ethereum_messages.proto", fileDescriptor_ethereum_messages_8339388745afba4a)
+	proto.RegisterFile("ethereum_messages.proto", fileDescriptor_ethereum_messages_8fe0d75077b972c5)
 }
 
-var fileDescriptor_ethereum_messages_8339388745afba4a = []byte{
+var fileDescriptor_ethereum_messages_8fe0d75077b972c5 = []byte{
 	// 267 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x5c, 0xd0, 0xb1, 0x4e, 0xf3, 0x30,
 	0x10, 0x07, 0x70, 0x39, 0x5d, 0xf2, 0xb9, 0x5f, 0xa8, 0x14, 0x21, 0xd5, 0x02, 0x14, 0xa2, 0x2c,

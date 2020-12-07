@@ -38,7 +38,7 @@ func (m *BitcoinTransactionInput) Reset()         { *m = BitcoinTransactionInput
 func (m *BitcoinTransactionInput) String() string { return proto.CompactTextString(m) }
 func (*BitcoinTransactionInput) ProtoMessage()    {}
 func (*BitcoinTransactionInput) Descriptor() ([]byte, []int) {
-	return fileDescriptor_bitcoin_types_f7101fa5507edc16, []int{0}
+	return fileDescriptor_bitcoin_types_6b068667b421b045, []int{0}
 }
 func (m *BitcoinTransactionInput) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -103,7 +103,7 @@ func (m *BitcoinTransactionOutput) Reset()         { *m = BitcoinTransactionOutp
 func (m *BitcoinTransactionOutput) String() string { return proto.CompactTextString(m) }
 func (*BitcoinTransactionOutput) ProtoMessage()    {}
 func (*BitcoinTransactionOutput) Descriptor() ([]byte, []int) {
-	return fileDescriptor_bitcoin_types_f7101fa5507edc16, []int{1}
+	return fileDescriptor_bitcoin_types_6b068667b421b045, []int{1}
 }
 func (m *BitcoinTransactionOutput) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -169,7 +169,7 @@ func (m *BitcoinTransactionType) Reset()         { *m = BitcoinTransactionType{}
 func (m *BitcoinTransactionType) String() string { return proto.CompactTextString(m) }
 func (*BitcoinTransactionType) ProtoMessage()    {}
 func (*BitcoinTransactionType) Descriptor() ([]byte, []int) {
-	return fileDescriptor_bitcoin_types_f7101fa5507edc16, []int{2}
+	return fileDescriptor_bitcoin_types_6b068667b421b045, []int{2}
 }
 func (m *BitcoinTransactionType) XXX_Unmarshal(b []byte) error {
 	return m.Unmarshal(b)
@@ -983,9 +983,9 @@ var (
 	ErrIntOverflowBitcoinTypes   = fmt.Errorf("proto: integer overflow")
 )
 
-func init() { proto.RegisterFile("bitcoin_types.proto", fileDescriptor_bitcoin_types_f7101fa5507edc16) }
+func init() { proto.RegisterFile("bitcoin_types.proto", fileDescriptor_bitcoin_types_6b068667b421b045) }
 
-var fileDescriptor_bitcoin_types_f7101fa5507edc16 = []byte{
+var fileDescriptor_bitcoin_types_6b068667b421b045 = []byte{
 	// 329 bytes of a gzipped FileDescriptorProto
 	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x74, 0x91, 0xbf, 0x4e, 0xf3, 0x30,
 	0x14, 0xc5, 0xe5, 0x34, 0xfd, 0x9a, 0xde, 0x36, 0x52, 0xe5, 0x0f, 0x81, 0x11, 0x22, 0x44, 0x65,
