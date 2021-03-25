@@ -1,0 +1,6 @@
+# github.com/gogo/protobuf v1.2.1
+## explicit
+github.com/gogo/protobuf/proto
+# github.com/skycoin/hardware-wallet-protob v0.0.0-20190714190439-bd9f95c53447
+## explicit
+github.com/skycoin/hardware-wallet-protob/go/google/protobuf
