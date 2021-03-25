@@ -9,8 +9,9 @@ matrix:
         apt:
           sources:
             - ubuntu-toolchain-r-test
-    - os: osx
-      language: generic
+    # - os: osx
+    #   python: 3.5
+    #   language: python
 
 script:
   - make check-go
